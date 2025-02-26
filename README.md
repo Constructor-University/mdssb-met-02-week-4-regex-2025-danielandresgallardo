@@ -65,10 +65,10 @@ Think of different ways of writing down a German phone number. and write them do
 Example: 0421 / 200 40, +49 421 200 40 
  
 `0421 / 200 40,
-+49 421 200 40
-0421 200 40
-421 200 40
-042120040
++49 421 200 40,
+0421 200 40,
+421 200 40,
+042120040,
 42120040`
 
 **Answer:** Replace this text with your answer.
