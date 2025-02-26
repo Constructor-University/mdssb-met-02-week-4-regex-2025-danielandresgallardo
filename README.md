@@ -36,8 +36,7 @@ Let's assume a Constructor University student number looks like this: G31485694.
 
 Find a regular expression that will match this kind of student number.
  
-`The numbers are (obviously) different for different students, so finding a regular expression that only matches this one student number is not enough. 
-Unless the way your regular expression works is obvious, please explain how it works.`
+`[G][0-9]{8}`
 
 **Answer:** Replace this text with your answer.
 
@@ -46,7 +45,7 @@ Unless the way your regular expression works is obvious, please explain how it w
 Sometimes people will write the G as a lower case character or leave out the letter altogether. 
 Find a regular expression that will match a student number, based on the additional information presented in this question. 
  
-`Unless the way your regular expression works is obvious, please explain how it works, e.g. this here will match the character and that here makes sure it also works if there is no character in front of the number.`
+`[Gg]?[0-9]{8}`
 
 **Answer:** Replace this text with your answer.
 
@@ -55,7 +54,7 @@ Find a regular expression that will match a student number, based on the additio
 Let's assume that sometimes you see other letters in front of the number (instead of G), e.g. if students sign up for a certificate that will not form part of their degree classification. 
 Find a regular expression that will match a student number, based on the additional information presented in this question. 
  
-`Unless the way your regular expression works is obvious, please explain how it works.`
+`[a-zA-Z]?[0-9]{8}`
 
 **Answer:** Replace this text with your answer.
 
@@ -65,7 +64,12 @@ Think of different ways of writing down a German phone number. and write them do
 
 Example: 0421 / 200 40, +49 421 200 40 
  
-`It's obvious, but just to spell it out: For this question, you should think about different ways of writing down a phone number. It's not about trying to come up with as many phone number as you can.`
+`0421 / 200 40,
++49 421 200 40
+0421 200 40
+421 200 40
+042120040
+42120040`
 
 **Answer:** Replace this text with your answer.
 
@@ -74,6 +78,6 @@ Example: 0421 / 200 40, +49 421 200 40
 
 Find a regular expression that matches all of the different phone number formats from Question 4a. If you cannot match all try to match as many as possible. If you can't match all, don't change Question 4a by pretending you came up with fewer phone number formats, but you matched them all. It's better if you come up with lots of formats you can't match than if you only come up with very few formats, but you can match all. 
  
-`Unless the way your regular expression works is obvious, please explain how it works.`
+`[+]?[0-9]+`
 
 **Answer:** Replace this text with your answer.
