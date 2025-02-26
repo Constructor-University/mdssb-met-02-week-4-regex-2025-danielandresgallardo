@@ -78,6 +78,6 @@ Example: 0421 / 200 40, +49 421 200 40
 
 Find a regular expression that matches all of the different phone number formats from Question 4a. If you cannot match all try to match as many as possible. If you can't match all, don't change Question 4a by pretending you came up with fewer phone number formats, but you matched them all. It's better if you come up with lots of formats you can't match than if you only come up with very few formats, but you can match all. 
  
-`[+]?[0-9]+`
+`[+]?[ \/0-9]{8,13}`
 
 **Answer:** Replace this text with your answer.
